@@ -22,13 +22,6 @@ mkdir api-diff
 chmod +x api-diff.sh
 
 7- create your sample "environmet.list" file as seen in repository
-ACTIVE;NAME;ENV;URL
-1;sample-project-1;dev;http://dev-api1.sample-project.com/v2/api-docs.json
-1;sample-project-1;test;http://test-api1.sample-project.com/v2/api-docs.json
-1;sample-project-2;dev;http://dev-api2.sample-project.com/v2/api-docs.json
-1;sample-project-2;test;http://test-api2.sample-project.com/v2/api-docs.json
-1;sample-project-3;dev;http://dev-api3.sample-project.com/v2/api-docs.json
-1;sample-project-3;test;http://test-api3.sample-project.com/v2/api-docs.json
 
 8- schedule your crontab to run every 5 min
 crontab -e
